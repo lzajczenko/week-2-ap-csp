@@ -31,10 +31,9 @@ print("14 - 2:", sub_result)
 
 #  Step 4: User Input Practice
 # Ask the user two questions and combine answers
-color = input ("What is your favorite color?")
 name = input ("What is your name?")
-print("Your name is ") + {name} (", and your favorite color is: ") + {color}
-
+color = input ("What is your favorite color?")
+print(f"Your name is {name}, and your favorite color is: {color}")
 
 
 # ⚙️ Step 5: Final Challenge (combine it all)
