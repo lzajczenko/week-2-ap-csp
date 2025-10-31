@@ -9,28 +9,31 @@ print("You’ll review variables, strings, numbers, and print formatting.\n")
 
 # Step 1: Create Variables
 # TODO: Replace the values below with your own info
-first_name = "Marvin"
-age = 30
-favorite_color = "Blue"
-favorite_number = 7
+first_name = "Lily"
+age = 17
+favorite_color = "Green"
+favorite_number = 12
 
 #  Step 2: Practice String Operations
 # 1. Print your name in uppercase
-
+print(first_name.upper())
 
 # 2. Print how many letters are in your name
-
+print(len(first_name))
 
 # 3. Combine your name and favorite color into one message
-
+print(first_name + favorite_color)
 
 #  Step 3: Math Practice
 # Use arithmetic operators with your favorite number
-
+sub_result = 14 - 2
+print("14 - 2:", sub_result)  
 
 #  Step 4: User Input Practice
 # Ask the user two questions and combine answers
-
+color = input ("What is your favorite color?")
+name = input ("What is your name?")
+print("Your name is ") + {name} (", and your favorite color is: ") + {color}
 
 
 
